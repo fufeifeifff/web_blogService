@@ -1,0 +1,493 @@
+body {
+  font-size: 12.7px
+}
+
+/* theme 颜色定义 */
+.color-primary {
+  color: #409EFF
+}
+
+.color-white {
+  color: white;
+}
+
+.color-success {
+  color: #67C23A
+}
+
+.color-warning {
+  color: #E6A23C
+}
+
+.color-info {
+  color: #909399
+}
+
+.color-green {
+  color:#7ed320;
+}
+.color-red {
+  color:#fd5757;
+}
+.color-blue {
+  color:#379efd;
+}
+.color-yellow {
+  color:#f8e71d;
+}
+.color-orange {
+  color:#ffa461;
+}
+
+.bg-green {
+  background-color:#7ed320;
+}
+.bg-red {
+  background-color:#fd5757;
+}
+.bg-blue {
+  background-color:#379efd;
+}
+.bg-yellow {
+  background-color:#f8e71d;
+}
+.bg-orange {
+  background-color:#ffa461;
+}
+
+.bg-danger {
+  color: #ce2731
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-right {
+  text-align: right
+}
+
+.text-left {
+  text-align: left
+}
+
+.text-bottom {
+  vertical-align: bottom
+}
+
+.text-top {
+  vertical-align: top
+}
+
+.bg-white {
+  background: white
+}
+
+.white {
+  color: white
+}
+
+.color-label {
+  color: #999999;
+}
+
+.color-content {
+  color: #222222;
+}
+.empty-page {
+  margin:20px;
+  width: 97.5%;
+  height: 100%;
+  background-color: #ffffff;
+  padding-left: 42%;
+  padding-top:20%;
+  padding-bottom: 20%;
+  font-size:20px;
+}
+
+.content .content-bar .search-btn .btn-add {
+  background-color: #ce2731;
+  border-color: #ce2731;
+  height: 46px;
+  width: 120px;
+  line-height: 46px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.table .el-table th {
+  border-bottom: 1px solid #ce2731;
+}
+
+.table .el-table tr {
+  padding-left: 24px
+}
+
+.table .el-table thead {
+  color: black;
+  height: 57px;
+  line-height: 57px;
+}
+
+.table .el-table th.is-leaf,
+.table .el-table td,
+.table .el-table__row td {
+  padding: 0px;
+}
+
+.table .el-table {
+  background-color: white;
+}
+
+.table .el-table .el-table__body tr {
+  height: 49px;
+  line-height: 49px;
+}
+
+.table .el-table .el-table__body th,
+.table .el-table .el-table__body {
+  background: #efefef
+}
+
+.table .el-table--border td:first-child .cell {
+  padding-left: 5px;
+}
+
+.table .el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: white;
+}
+
+.table .el-pagination {
+  text-align: right;
+}
+
+.table .el-pagination .el-input__inner {
+  background-color: transparent;
+  border: solid 1px #a7a7a7;
+}
+
+.table .el-pagination button.disabled,
+.table .el-pagination .el-pager li,
+.table .el-pagination .btn-next,
+.table .el-pagination .btn-prev {
+  background: #f9f9f9;
+  border: solid 1px #d9d9d9;
+  border-radius: 4px;
+  width: 30px;
+  line-height: 30px;
+  min-width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 5px;
+}
+
+.table .el-pagination .el-pager li {
+  padding: 0px 10px;
+  width: auto;
+  line-height: 30px;
+  min-width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  border: solid 1px #d9d9d9;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.table .el-pagination .el-pager li:hover,
+.table .el-pagination button:hover {
+  color: #ce2731;
+}
+
+.table .el-pagination button.disabled:hover {
+  color: #c0c4cc;
+}
+
+.table .el-pagination .el-pager li.active {
+  background-color: #ce2731;
+  color: white;
+}
+
+.table .el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: transparent;
+}
+
+.el-table .sort-caret.descending {
+  color: #c0c4cc;
+  border-top-color: #c0c4cc;
+}
+
+.el-table .sort-caret.ascending {
+  color: #c0c4cc;
+  border-bottom-color: #c0c4cc;
+}
+
+.el-table .ascending .sort-caret.ascending {
+  border-bottom-color: #ce2731;
+}
+
+.el-table .descending .sort-caret.descending {
+  border-top-color: #ce2731;
+}
+
+.table .el-table--border td,
+.table .el-table--border th,
+.table .el-table__body-wrapper .el-table--border.is-scrolling-left ~ .el-table__fixed {
+  border: none;
+}
+
+.container .content .content-bar {
+  padding: 10px;
+}
+
+.content-bar .search-entry .el-input-group,
+.content .el-select,
+.content-bar .search-entry .el-autocomplete {
+  width: 380px;
+}
+
+.content-bar .search-entry .el-autocomplete .el-input__suffix .el-icon-search {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.content .el-pagination .el-select {
+  width: 100px;
+}
+
+.content-bar .search-entry .el-input__inner,
+.content-bar .search-area .el-input__inner,
+.content-bar .search-entry .el-input-group__append button.el-button,
+.content-bar .search-input .el-input__inner,
+.content-bar .search-input .el-input-group__append button.el-button {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 46px;
+  line-height: 46px;
+  vertical-align: middle;
+}
+.content-bar .search-boxs .el-input__inner:focus{
+  border-color:#d9d9d9;
+}
+
+.content-bar .search-entry .el-input-group__append button.el-button img {
+  margin-top: 12px;
+}
+
+.app .app-body .container .el-main {
+  padding: 15px;
+}
+
+.container .search-name {
+  font-size: 13px;
+}
+
+.content .el-dialog .dialog-footer,
+.ky-header .el-dialog .dialog-footer {
+  text-align: right;
+}
+
+.err-dialog .el-dialog {
+  height: 180px;
+  line-height: 180px;
+  border-radius: 8px;
+}
+
+.err-dialog .el-dialog .el-dialog__header {
+  padding: 0px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 15px;
+}
+
+.err-dialog .el-dialog .el-dialog__header span {
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  color: #222222;
+  display: inline-block;
+}
+
+.err-dialog .el-dialog .el-dialog__header .el-dialog__headerbtn {
+  position: relative;
+  float: right;
+  top: 0;
+  right: 0;
+  height: 28px;
+  line-height: 28px;
+  width: 28px;
+  background-color: #cacaca;
+}
+
+.err-dialog .el-dialog .el-dialog__header .el-dialog__headerbtn i {
+  color: white;
+  font-size: 24px;
+}
+
+.err-dialog .el-dialog .el-dialog__body {
+  padding: 0 15px;
+  height: 152px;
+  line-height: 152px;
+}
+
+.err-dialog .el-dialog .el-dialog__body .dialog-content {
+  height: 96px;
+  line-height: 96px;
+  border-bottom: 1px solid #ccc
+}
+
+.err-dialog .el-dialog .el-dialog__body .dialog-content span {
+  font-size: 24px;
+  color: #222222
+}
+
+.err-dialog .el-dialog .el-dialog__body .dialog-content img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+  margin-top: 32px;
+  margin-right: 10px;
+}
+
+.err-dialog .el-dialog .el-dialog__body .dialog-bottom {
+  height: 56px;
+  line-height: 56px;
+}
+
+.content .el-form-item.is-success .el-form-item__content .el-input__inner,
+.content .el-form-item.is-success .el-form-item__content .el-input__inner:focus,
+.content .el-form-item.is-success .el-form-item__content .el-textarea__inner,
+.content .el-form-item.is-success .el-form-item__content .el-textarea__inner:focus {
+  border-color: #c0c4cc;
+}
+
+.content .el-form-item .el-form-item__content .el-button--danger,
+.content .el-dialog .dialog-footer .el-button--danger,
+.content .search-bar .search-upload .el-button--danger,
+.el-message-box__wrapper .el-message-box .el-message-box__btns .el-button:last-child,
+.ky-header .el-dialog .dialog-footer .el-button--danger {
+  border-color: #ce2731;
+  background-color: #ce2731;
+}
+
+.content .el-form-item .el-form-item__content .el-button,
+.content .search-bar .search-upload .el-button,
+.ky-header .el-dialog .dialog-footer .el-button {
+  width: 140px;
+  height: 46px;
+}
+
+.content .el-form-item .el-form-item__content .el-button.btn-cancel:focus,
+.content .el-form-item .el-form-item__content .el-button.btn-cancel:hover,
+.content .el-dialog .el-button.btn-cancel:hover,
+.el-message-box__wrapper .el-message-box .el-message-box__btns .el-button:first-child:focus,
+.el-message-box__wrapper .el-message-box .el-message-box__btns .el-button:first-child:hover,
+.ky-header .el-dialog .dialog-footer .el-button.btn-cancel:focus,
+.ky-header .el-dialog .dialog-footer .el-button.btn-cancel:hover {
+  color: #ce2731;
+  background-color: #fcf0f1;
+  border-color: #fcf0f1;
+}
+
+.content .el-form-item .el-form-item__label {
+  color: #222;
+}
+
+.content .new-wrap .el-form-item .el-date-editor.el-input,
+.content .new-wrap .el-form-item .el-date-editor.el-input__inner,
+.content .new-wrap .el-form-item .el-select,
+.content .new-wrap .el-form-item .el-input,
+.content .new-wrap .el-form-item .el-textarea {
+  width: 300px;
+}
+
+.content .new-wrap .el-form-item .select-small .el-select,
+.content .new-wrap .el-form-item .select-small .el-input {
+  width: 150px;
+}
+
+.content .new-wrap .el-form-item .el-radio.is-bordered.is-checked,
+.content .new-wrap .el-form-item .el-radio__input.is-checked .el-radio__inner,
+.content .content-bar .search-bar .el-radio.is-bordered.is-checked,
+.content .content-bar .search-bar .el-radio__input.is-checked .el-radio__inner {
+  border-color: #ce2731;
+}
+
+.content .new-wrap .el-form-item .el-radio__input.is-checked .el-radio__inner,
+.content .content-bar .search-bar .el-radio__input.is-checked .el-radio__inner {
+  background-color: #ce2731;
+}
+
+.content .new-wrap .el-form-item .el-input__inner,
+.content .new-wrap .el-form-item .el-textarea__inner,
+.content .new-wrap .el-form-item .el-radio.is-bordered,
+.ky-header .el-dialog .el-form-item .el-input__inner {
+  border-color: #ababab;
+}
+
+.content .new-wrap .el-form-item .el-radio.is-bordered {
+  padding: 12px 25px;
+
+}
+
+.content .new-wrap .el-form-item .el-radio__input.is-checked + .el-radio__label,
+.content .content-bar .search-bar .el-radio__input.is-checked + .el-radio__label {
+  color: #606266;
+}
+
+.el-loading-mask .el-loading-spinner i {
+  color: #999;
+  font-size: 38px;
+}
+
+.el-loading-mask .el-loading-spinner .el-loading-text {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #999;
+}
+
+/* 搜索框清除按钮 */
+.content-bar .search-entry .el-input-group__append {
+  background: white;
+}
+
+.content-bar .search-entry .el-input-group__append button.el-button {
+  border-left: none;
+}
+
+/* 富文本样式 */
+.el-dialog .ql-editor {
+  font-size: 14px;
+}
+
+.el-dialog .ql-container {
+  font-family: Microsoft YaHei, sans-serif;
+}
+
+.el-dialog .ql-toolbar.ql-snow {
+  padding: 0px 8px;
+  font-family: Microsoft YaHei, sans-serif;
+}
+.el-dialog .ql-snow .ql-picker-options .ql-picker-item {
+  height: 24px;
+  line-height: 24px;
+}
+
+.el-dialog .el-form-item__content {
+  line-height: 20px;
+}
+
+.el-dialog .ql-editor.ql-blank::before {
+  font-family: Microsoft YaHei, sans-serif;
+  font-style: inherit;
+  color: #c0c4cc;
+}
+
+div.txt-charge {
+  width: 100%;
+  padding: 0px 20px;
+  word-wrap: break-word;
+}
