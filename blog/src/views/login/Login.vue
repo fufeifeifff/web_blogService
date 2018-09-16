@@ -32,8 +32,8 @@ export default {
   data () {
     return {
       loginForm: {
-        username: '', // 'admin',
-        password: '', // '12345678',
+        username: 'admin', // 'admin',
+        password: '12345678', // '12345678',
         rememberme: false
       },
       errorMessage: '',
@@ -63,7 +63,7 @@ export default {
       this.loading = true
       this.errorMessage = ''
 
-      try {
+     /* try {
         await this.login(this.loginForm)
         this.$router.replace({
           name: 'dashboard'
@@ -71,7 +71,10 @@ export default {
         console.log('登陆成功')
       } catch (error) {
         this.$refs.err_dlg.show(error)
-      }
+      }*/
+      this.$router.push({
+        path: '/index'
+      })
 
       this.loading = false
     },

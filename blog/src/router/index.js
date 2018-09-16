@@ -9,6 +9,10 @@ export default new Router({
       path: '/',
       name: 'login',
       component: () => import('@/views/login/Login')
+    },{
+     path:'/index',
+      name:'index',
+      component:()=>import('@/views/index/Index')
     }
   ]
 })
